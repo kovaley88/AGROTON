@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../fonts/NunitoSans-Variable.woff2") format("woff2-variations");
+  src: url("../fonts/NunitoSans-Variable.woff2") format("woff2")
+    tech("variations");
+  font-weight: 300 700;
+}
+
+@font-face {
+  font-family: "WorkSans-Light";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-Medium";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+body {
+  font-size: 16px;
+  color: #0e0d0d;
+  background-color: #fdfdf0;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  font-family: "NunitoSans", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 30px;
+}
+
+.menu__link {
+  text-transform: uppercase;
+}
+
+.header__contacts {
+  display: inline-block;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  background-color: #0e0d0d;
+  color: #fff;
+  border-radius: 50px;
+  /* font-size: 22px; */
+}
