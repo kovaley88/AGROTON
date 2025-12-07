@@ -114,3 +114,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
 }
+
+.about__achievements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
