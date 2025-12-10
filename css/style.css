@@ -119,4 +119,131 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 90px;
+  margin-top: -55px;
+}
+
+.about__achievement {
+  max-width: 580px;
+  background-color: #f4f4e7;
+  border-radius: 20px;
+  padding: 14px 10px;
+  display: flex;
+  gap: 0 25px;
+}
+
+.about__achievement-imbox {
+  min-width: 214px;
+  position: relative;
+}
+
+.about__achievement-arrow {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.about__achievement-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.about__achievement-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.text--color {
+  color: #f2a531;
+  font-weight: 600;
+}
+
+.about__stats {
+  border-radius: 20px;
+  background-color: #f4f4e7;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 18px;
+  gap: 0 90px;
+}
+
+.about__stats-item {
+  text-align: center;
+  width: 300px;
+}
+
+.about__stats-item dt {
+  font-family: "WorkSans-SemiBold", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.about__stats-item dd {
+  margin: 0;
+  color: #0e0d0d;
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.about__progress-text {
+  font-family: "WorkSans-Light", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.about__progress-text span {
+  font-family: WorkSans-Medium, sans-serif;
+  font-weight: 500;
+}
+
+.about__progress-box {
+  display: flex;
+  gap: 0 140px;
+}
+
+.about__progress-boxtext {
+  font-size: 18px;
+  margin-bottom: 45px;
+  padding-right: 50px;
+}
+
+.about__progress-table {
+  border-top: 1px solid #252323;
+}
+
+.about__progress-item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #252323;
+  align-items: center;
+}
+
+.about__progress-item + .about__progress-item {
+  margin-top: 20px;
+}
+
+.about__progress-item dt {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about__progress-item dt span {
+  color: #f2a531;
+  font-weight: 500;
+}
+
+.about__progress-item dd {
+  opacity: 0.6;
 }
