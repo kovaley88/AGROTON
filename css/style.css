@@ -481,6 +481,9 @@ body {
 }
 
 .blog__item-small {
+  display: flex;
+  align-items: center;
+  gap: 0 24px;
 }
 
 .blog__item-info {
@@ -503,4 +506,36 @@ body {
   font-family: "WorkSans-Medium", sans-serif;
   font-weight: 500;
   font-size: 24px;
+}
+
+.footer {
+  background-color: #0e0d0d;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-right: 100px;
+}
+
+.footer__element-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer__item + .footer__item {
+  padding-top: 15px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #fff;
+  font-size: 14px;
 }
