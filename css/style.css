@@ -539,3 +539,11 @@ body {
   border-top: 1px solid #fff;
   font-size: 14px;
 }
+
+/* ------------------------------------------------ */
+
+@media (max-width: 1600px) {
+  .container-big {
+    padding: 0;
+  }
+}
